@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn Chess - Rules</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="common-style.css">
+
+    <style>
+		.image-article 
+		{
+  			display: flex;
+			flex-direction: row-reverse;
+		}
+
+		.image-article img 
+		{
+			margin-right: 20px;
+		}
+
+    </style>
+</head>
+
+<body>
+	<header>
+		<h1> Basic Rules </h1>
+	</header>
+
+	<nav>
+		<li><a href="chess.html">Home</a></li>
+		<li><a href="openings.html">Openings</a></li>
+		<li><a href="tactics.html">Tactics</a></li>
+		<li><a href="endgame.html">Endgame</a></li>	
+	</nav>
+
+	<main>
+		<p>Chess is a two-player board game played on a checkered board where each player starts with 16 pieces, consisting of one king, one queen, two rooks, two knights, two bishops, and eight pawns.</p>
+		<p>The objective of the game is to checkmate your opponent's king, which means placing the king in a position where it is under attack and there is no way to move or capture a piece to get out of check.</p>
+		<p>The game is played in turns, with each player moving one piece per turn. There are specific rules governing how each piece can move, and capturing an opponent's piece is also governed by specific rules.</p>
+
+        <article>
+			<h3>Setting up your Chess Board</h3>
+			<p>The players' pieces are placed in the two rows of a chessboard that are nearest to each player at the start of the game. Eight pawns are placed on a single square in the second rank, which is the row directly in front of the players.</p>
+			<p>Rooks, or castles, are put in the outermost and outermost corners first, then knights in the neighbouring spaces, and finally bishops.</p>
+			<p>The king and queen are given the middle squares of board, with the queen being seated on the square that corresponds to her colour, such as the black queen on the black square. The last tile of the opposing colour is taken by the king.</p>
+			<p>This arrangement makes the setup entirely symmetrical between the two players by ensuring that the king and queen of each side face one another.</p>
+		  </article>
+		  <iframe width="1200" height="450" src="https://www.youtube.com/embed/wH9Z1ORrtjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		  
+
+        <div class="image-article">
+			<img src="Images/chess-moves.png" alt="Chess Moves" width="40%" height=auto>
+			<article>
+			  <h3> How to Move Each Piece</h3>
+			  <p> The pawn moves one or two squares forward on its first move and then one square forward in subsequent moves. It can only capture diagonally one square forward.</p>
+			  <p> The rook moves horizontally or vertically, any number of squares.</p>
+			  <p> The knight moves in an L-shape, two squares in a straight line and then one square perpendicular to that.</p>
+			  <p> The bishop moves diagonally, any number of squares.</p>
+			  <p> The queen moves both horizontally and vertically, any number of squares, and diagonally, any number of squares.</p>
+			  <p>The king can move one square in any direction. </p>
+			</article>
+		  </div>
+
+		<article>
+			<h3> Special Moves</h3>
+			<h4> Castling</h4>
+			<p> Castling is a special rule that allows your king to move two spaces to its right or left, while the rook on that side moves to the opposite side of the king. It is important in the early part of the game, as it serves 2 purposes: it moves the king to a safer position and moves the rook to a more active position</p>
+			<p> There are a few conditions that must be met in order to castle: </p>
+			<p> 	1. 	Neither the king nor the rook involved in the castling move can have moved from its original square. </p>
+			<p> 	2. 	There can be no pieces between the king and rook. </p>
+			<p> 	3. 	The king cannot be in check, or can it move through a sqaure that is attacked by an opponent's piece.</p>
+			<div style="width: 100%; height:auto;">
+				<img src="Images/castling.gif" alt="Castling" style="width: 100%; height: auto;">
+			</div>
+
+			<h4> En Passant</h4>
+			<p> En passant is a chess move that can be made by a pawn. It is a French term that means "in passing". This move can be made when an opponent's pawn advances two squares from its starting position and ends up on a square next to one of your pawns. If you have a pawn that could have captured the opponent's pawn if it had only advanced one square instead of two, then you may choose to make an en passant capture. </p>
+			<p> In order to perform an en passant capture, move your pawn diagonally forward to the sqaure that the opponent's pawn passed over when it moved two squares forward. You then remove the opponent's pawn from the board as if you had captured it on the square that it passed over. </p>
+			<div style="width: 100%; max-width: 1000px;">
+				<img src="Images/en-passantt.gif" alt="En Passant" style="width: 100%; height: auto;">
+			</div>
+			  
+			<p> </p>
+		</article>
+		
+	</main>
+
+	<footer>
+		<p>Copyright &copy; 2023 Learn Chess</p>
+	</footer>
+
+</body>
+</html>

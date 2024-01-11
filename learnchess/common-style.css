@@ -1,0 +1,66 @@
+/* Common Styles for All HTML Files*/
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header 
+{
+    background-color: #1e2824;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+h1 
+{
+    margin: 0;
+}
+nav 
+{
+    background-color: #766b65;
+    overflow: hidden;
+}
+nav a 
+{
+    float: left;
+    display: block;
+    color: #151515;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover 
+{
+    background-color: #514945;
+    color: black;
+}
+main 
+{
+    margin: 20px;
+}
+
+li 
+{
+    display: inline-block;
+}
+article 
+{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #D3D3D3;
+    width: auto
+}
+h2 
+{
+    margin-top: 0;
+}
+footer 
+{
+    background-color: #1e2824;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
